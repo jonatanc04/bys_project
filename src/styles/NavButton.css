@@ -1,0 +1,11 @@
+.navButton {
+    height: fit-content;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.navButton:hover {
+    background-color: rgb(59, 59, 59);
+}

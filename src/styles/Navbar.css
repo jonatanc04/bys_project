@@ -1,0 +1,13 @@
+nav {
+    background-color: black;
+}
+
+nav h1 {
+    font-style: italic;
+    color: white;
+}
+
+nav h1:hover {
+    cursor: pointer;
+    color: rgb(16, 228, 16);
+}

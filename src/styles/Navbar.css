@@ -8,6 +8,23 @@ nav h1 {
 }
 
 nav h1:hover {
+    width: fit-content;
     cursor: pointer;
     color: rgb(16, 228, 16);
+}
+
+nav .navbar-logo {
+    width: 80px;
+}
+
+nav .change-lenguage {
+    cursor: pointer;
+    padding: 3px;
+    width: 30px;
+    transition: all 0.3s ease;
+}
+
+nav .change-lenguage:hover {
+    transform: translateX(-3px) translateY(-3px);
+    filter: drop-shadow(3px 3px 0px white);
 }

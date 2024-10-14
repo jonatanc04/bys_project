@@ -1,16 +1,31 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import './i18n';
 import Navbar from './comps/Navbar';
-import TeamsPage from './pages/teamsPage'
+import Principal from './pages/principal';
+import Teams from './pages/teams';
+import Schendule from './pages/schendule';
+import More from './pages/more';
 
 import './App.css';
 
 function App() {
+
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Navbar changeLanguage={changeLanguage} />
         <Routes>
-          <Route path='/teams' element={<TeamsPage />}></Route>
+          <Route path='/' element={<Principal />}></Route>
+          <Route path='/teams' element={<Teams />}></Route>
+          <Route path='/schendule' element={<Schendule />}></Route>
+          <Route path='/more' element={<More />}></Route>
         </Routes>
       </Router>
     </div>

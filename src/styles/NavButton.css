@@ -1,8 +1,7 @@
 .navButton {
     height: fit-content;
-    color: white;
     font-weight: bold;
-    text-decoration: none;
+    color: white;
     border-radius: 50px;
 }
 

@@ -1,0 +1,19 @@
+.principal h2 {
+    width: fit-content;
+}
+
+.principal .text-container {
+    background-color: black;
+    border-left: 10px solid white;
+}
+
+.principal t {
+    padding: 20px;
+    text-align: justify;
+}
+
+.principal .arrow-st {
+    width: 80px;
+    filter: brightness(100);
+    transform: rotate(180deg);
+}

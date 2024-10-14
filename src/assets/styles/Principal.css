@@ -17,3 +17,14 @@
     filter: brightness(100);
     transform: rotate(180deg);
 }
+
+.principal .logo-x-width {
+    width: 40px;
+    filter: invert(100%);
+    transition: all 0.3s ease;
+}
+
+.principal .logo-x-width:hover {
+    transform: translateX(-3px) translateY(-3px);
+    filter: invert(100%) drop-shadow(3px 3px 0px black);
+}

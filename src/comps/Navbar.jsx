@@ -6,7 +6,7 @@ import logo from "../assets/images/logo.png";
 import es from "../assets/images/es.png"
 import en from "../assets/images/en.png"
 
-import '../styles/Navbar.css';
+import '../assets/styles/Navbar.css';
 
 export default function Navbar({changeLanguage}) {
 
@@ -21,6 +21,7 @@ export default function Navbar({changeLanguage}) {
       <div className="d-flex align-items-center justify-content-end col-5">
         <NavButton name={"Teams"} to={"/teams"}/>
         <NavButton name={"Schendule"} to={"/schendule"}/>
+        <NavButton name={"Standings"} to={"/standings"}/>
         <NavButton name={"More info..."} to={"/more"}/>
         <img className="change-lenguage" onClick={() => changeLanguage('en')} src={en} alt="en"></img>
         <img className="change-lenguage" onClick={() => changeLanguage('es')} src={es} alt="es"></img>

@@ -8,6 +8,7 @@ import Schendule from './pages/schendule';
 import More from './pages/more';
 
 import './App.css';
+import Standings from './pages/standings';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/' element={<Principal />}></Route>
           <Route path='/teams' element={<Teams />}></Route>
           <Route path='/schendule' element={<Schendule />}></Route>
+          <Route path='/standings' element={<Standings />}></Route>
           <Route path='/more' element={<More />}></Route>
         </Routes>
       </Router>

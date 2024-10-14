@@ -1,10 +1,11 @@
 import React from "react"
 import { useTranslation } from 'react-i18next';
 
-import "../styles/Principal.css"
+import "../assets/styles/Principal.css"
 import bronze from '../assets/images/bronze.png'
 import arrow from '../assets/images/arrow.png'
 import gold from '../assets/images/gold.png'
+import x from '../assets/images/x-logo.png'
 
 export default function Principal() {
 
@@ -29,6 +30,12 @@ export default function Principal() {
       </div>
       <div className="text-container col-12 m-3 d-flex">
         <t>{t('description2')}</t>
+      </div>
+      <div className="m-3 d-flex flex-column align-items-center justify-content-center">
+        <h3>{t('contact')}</h3>
+        <a href="https://x.com/BluntSpicyLoL">
+          <img className="m-3 logo-x-width" src={x} alt="X"></img>
+        </a>
       </div>
     </div>
   )

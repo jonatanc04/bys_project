@@ -1,18 +1,18 @@
 {
     "Blunt & Spicy": {
-        "img": "../assets/images/teams/blunt.png",
+        "img": "../teams/blunt.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Sidern%23BYS%2CGH%C3%96StLI%23EUW%2CEZ4RAGE%23EUW%2CKotufox%C3%90%23EUW%2CD6+Luservadelao%23DLK%2C+Manite%23JLL%2C"
     },
     "Walo MINI": {
-        "img": "../assets/images/teams/walo.png",
+        "img": "../teams/walo.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=WL%2BWwonka%232432,WL%2BElbala%235303,WL%2BKıngNa%231411,WL%2BCalvito%23FAP,WL%2BImugi%233122"
     },
     "Game of Toddlers": {
-        "img": "../assets/images/teams/toddlers.png",
+        "img": "../teams/toddlers.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=2HellandTOA%23EUW%2CNcLw0w%239117%2CHanasöf%23euw%2CThunderStar%23Star%2CSonged420%23EUW"
     },
     "Dorint": {
-        "img": "../assets/images/teams/dorint.png",
+        "img": "../teams/dorint.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW "
     }
 }

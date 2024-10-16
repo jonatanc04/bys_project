@@ -1,0 +1,22 @@
+.team-card {
+    cursor: pointer;
+    margin: 20px;
+    background-color: black;
+    border-bottom: 10px solid white;
+}
+
+.team-card img {
+    transition: all 0.3s ease; 
+}
+
+.team-card h3 {
+    color: white;
+}
+
+.team-card:hover img{
+    transform: scale(1.3);
+}
+
+.team-card .team-logo {
+    width: 100px;
+}

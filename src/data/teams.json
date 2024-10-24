@@ -14,5 +14,9 @@
     "Dorint": {
         "img": "../teams/dorint.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW "
+    },
+    "Carthage Legions": {
+        "img": "../teams/carthage.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=storm%23maki%2Cdevansi%230505%2CLynexa%23adc%2CCallMeChou%23238%2CZÖMBÏE%23EUW%2CSeraQuèen%23EUW%2CLuciferios%23EUW"
     }
 }

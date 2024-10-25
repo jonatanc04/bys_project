@@ -1,21 +1,45 @@
 {
     "Blunt & Spicy": {
+        "id": 1,
+        "twitter": {
+            "url": "https://x.com/BluntSpicyLoL",
+            "arr": "@BluntSpicyLoL"
+        },
+        "manager": "sirinazurey",
         "img": "../teams/blunt.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Sidern%23BYS%2CGH%C3%96StLI%23EUW%2CEZ4RAGE%23EUW%2CKotufox%C3%90%23EUW%2CD6+Luservadelao%23DLK%2C+Manite%23JLL%2C"
     },
     "Walo MINI": {
+        "id": 2,
+        "twitter": {
+            "url": "https://x.com/WaloESP",
+            "arr": "@WaloESP"
+        },
+        "manager": "kingnawl",
         "img": "../teams/walo.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=WL%2BWwonka%232432,WL%2BElbala%235303,WL%2BKıngNa%231411,WL%2BCalvito%23FAP,WL%2BImugi%233122"
     },
     "Game of Toddlers": {
+        "id": 3,
+        "twitter": "https://x.com",
+        "manager": "nic4847",
         "img": "../teams/toddlers.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=HellandTop%23Sky%2CNcLw0w%239117%2CHanasöf%23euw%2CCorki420%23EUW%2CSonged420%23EUW"
     },
     "Dorint": {
+        "id": 4,
+        "twitter": "https://x.com",
+        "manager": "madcat73_11698",
         "img": "../teams/dorint.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW "
     },
     "Carthage Legions": {
+        "id": 5,
+        "twitter": {
+            "url": "https://x.com/CarthageLegions",
+            "arr": "@CarthageLegions"
+        },
+        "manager": "zedgod__",
         "img": "../teams/carthage.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=storm%23maki%2Cdevansi%230505%2CLynexa%23adc%2CCallMeChou%23238%2CZÖMBÏE%23EUW%2CSeraQuèen%23EUW%2CLuciferios%23EUW"
     }

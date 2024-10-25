@@ -6,9 +6,13 @@ import logo from "../assets/images/logo.png";
 import es from "../assets/images/es.png"
 import en from "../assets/images/en.png"
 
+import { useTranslation } from 'react-i18next';
+
 import '../assets/styles/Navbar.css';
 
 export default function Navbar({changeLanguage}) {
+
+  const { t } = useTranslation();
 
   return (
     <nav className="container-fluid m-0 p-0 d-flex">
@@ -19,10 +23,10 @@ export default function Navbar({changeLanguage}) {
         <img className="navbar-logo" src={logo} alt="logo"></img>
       </div>
       <div className="d-flex align-items-center justify-content-end col-5">
-        <NavButton name={"Teams"} to={"/teams"}/>
-        <NavButton name={"Schendule"} to={"/schendule"}/>
-        <NavButton name={"Standings"} to={"/standings"}/>
-        <NavButton name={"More info..."} to={"/more"}/>
+        <NavButton name={t("teams")} to={"/teams"}/>
+        <NavButton name={t("schendule")} to={"/schendule"}/>
+        <NavButton name={t("standings")} to={"/standings"}/>
+        <NavButton name={t("info")} to={"/more"}/>
         <img className="change-lenguage" onClick={() => changeLanguage('en')} src={en} alt="en"></img>
         <img className="change-lenguage" onClick={() => changeLanguage('es')} src={es} alt="es"></img>
       </div>

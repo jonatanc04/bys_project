@@ -1,0 +1,62 @@
+.teampage .opgg-link {
+    color: white;
+    background-color: #5884ec;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.teampage .opgg-link:hover {
+    transform: scale(1.1);
+}
+
+.teampage .notfound {
+    margin-top: 200px;
+    background-color: black;
+}
+
+.teampage button {
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(253, 83, 83);
+    transition: all 0.3s ease;
+}
+
+.teampage button:hover {
+    transform: scale(1.1);
+}
+
+.teampage div {
+    background-color: black;
+}
+
+.teampage .content {
+    height: 400px;
+}
+
+.teampage .content .logo {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.teampage .content .inverted {
+    filter: invert(100%) brightness(200%);
+    transition: all 0.3s ease;
+}
+
+.teampage .content .inverted:hover {
+    transform: translateX(-3px) translateY(-3px);
+}
+
+.teampage .content h3 {
+    border-bottom: 5px solid white;
+    padding-bottom: 5px;
+}
+
+.teampage h1 {
+    background-color: black;
+    border-bottom: 8px solid white;
+}
+
+.teampage img {
+    width: 300px;
+}

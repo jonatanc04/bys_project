@@ -1,6 +1,15 @@
 {
+    "teams": "Teams",
+    "schendule": "Schendule",
+    "standings": "Standings",
+    "info": "More info...",
     "welcome": "Welcome to the Blunted Cup!",
     "description": "The Blunted Cup is a small League of Legends Invitational Cup organized by the team Blunt & Spicy. It features a total of 8 teams that participate in a small group stage to qualify for a knockout stage, where only the top 4 teams advance. This knockout round, divided into semifinals and finals, is played in a best-of-3 format, while the group stage is a single map.",
     "description2": "Registration is completely free. You just need to contact us (@BluntSpicyLoL on X) and provide your team’s details: name, logo, and opgg, as well as a contact Discord.",
-    "contact": "Contact us!"
+    "contact": "Contact us!",
+    "seein": "Open in",
+    "notfoundteam": "Team not found...",
+    "back": "Come back",
+    "manager": "Team's manager",
+    "x-profile": "X profile"
 }

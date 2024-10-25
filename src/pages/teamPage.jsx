@@ -40,7 +40,7 @@ export default function TeamPage({ teamData }) {
           <h3>{t('x-profile')}</h3>
           <div className="col-12 d-flex flex-row justify-content-between">
             { team.twitter === "https://x.com" ? (
-              <h5 className="col-12 text-center">Nothing to see there...</h5>
+              <h5 className="col-12 text-center">{t('nothing')}</h5>
             ) : (
               <>
               <h5><i>{team.twitter.arr}</i></h5>

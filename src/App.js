@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './i18n';
 import Navbar from './comps/Navbar';
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Navbar changeLanguage={changeLanguage} />
         <Routes>
           <Route path='/' element={<Principal />} />
@@ -31,7 +31,7 @@ function App() {
           <Route path='/standings' element={<Standings />} />
           <Route path='/more' element={<More />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

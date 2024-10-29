@@ -1,0 +1,8 @@
+.more-info t {
+    background-color: black;
+    border-left: 8px solid white;
+}
+
+.more-info {
+    margin-top: 20px;
+}

@@ -29,14 +29,14 @@ export default function TeamPage({ teamData }) {
         <img src={process.env.PUBLIC_URL + team.img} alt={`${teamName} Logo`} />
       </div>
       <div className="content col-6 d-flex flex-column justify-content-center align-items-center">
-        <div className="col-6">
+        <div className="col-8 col-lg-6">
           <h3>{t('manager')}</h3>
           <div className="col-12 d-flex flex-row justify-content-between">
             <h5><i>{team.manager}</i></h5>
             <img className="logo" src={discord} alt="discord" />
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-8 col-lg-6">
           <h3>{t('x-profile')}</h3>
           <div className="col-12 d-flex flex-row justify-content-between">
             { team.twitter === "https://x.com" ? (

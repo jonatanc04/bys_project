@@ -1,6 +1,7 @@
 .team-card {
     cursor: pointer;
     margin: 20px;
+    height: 200px;
     background-color: black;
     border-bottom: 10px solid white;
 }

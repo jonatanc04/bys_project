@@ -15,7 +15,37 @@ export default function Navbar({changeLanguage}) {
   const { t } = useTranslation();
 
   return (
-    <nav className="container-fluid m-0 p-0 d-flex">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid d-flex">
+        <div className="d-flex align-items-center justify-content-start col-4 col-lg-5">
+          <Link to='/'><h1>Blunted Cup</h1></Link>
+        </div>
+        <div className="d-flex align-items-center justify-content-lg-center justify-content-start col-4 col-lg-2">
+          <img className="navbar-logo" src={logo} alt="logo"></img>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div className="col-12 align-items-center justify-content-end navbar-nav">
+            <NavButton name={t("teams")} to={"/teams"}/>
+            <NavButton name={t("schendule")} to={"/schendule"}/>
+            <NavButton name={t("standings")} to={"/standings"}/>
+            <NavButton name={t("info")} to={"/more"}/>
+            <div className="d-flex flex-row">
+              <img className="change-lenguage" onClick={() => changeLanguage('en')} src={en} alt="en"></img>
+              <img className="change-lenguage" onClick={() => changeLanguage('es')} src={es} alt="es"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+
+}
+
+/*
+<nav className="container-fluid m-0 p-0 d-flex">
       <div className="d-flex align-items-center justify-content-start col-5">
         <Link to='/'><h1 className="p-2">Blunted Cup</h1></Link>
       </div>
@@ -31,6 +61,4 @@ export default function Navbar({changeLanguage}) {
         <img className="change-lenguage" onClick={() => changeLanguage('es')} src={es} alt="es"></img>
       </div>
     </nav>
-  )
-
-}
+*/

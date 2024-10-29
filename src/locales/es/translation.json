@@ -12,5 +12,10 @@
     "back": "Volver atrás",
     "manager": "Manager del equipo",
     "x-profile": "Perfil en X",
-    "nothing": "Nada que ver aquí..."
+    "nothing": "Nada que ver aquí...",
+    "more-info": {
+        "par-1": "La competición tendrá una duración fija de cinco semanas, tres para la fase clasificatoria, donde se jugará un partido semanal, y dos para la fase eliminatoria, semi-final y final (y el tercer y cuarto puesto). Los partidos de la fase de grupos serán asignados justo antes del comienzo de la competición.",
+        "par-2": "Los partidos no tendrán horario fijo, si no que los equipos decidirán la fecha en la que se jugarán. Además, en caso de que un equipo no pueda jugar una semana, su partido se podrá posponer hasta un máximo de tres semanas desde la asignación de grupos. Básicamente, podréis jugar las tres partidas de fase de grupos desde su anuncio hasta un plazo de tres semanas.",
+        "par-3": "En el caso de que algún equipo no complete sus tres partidos, este se dará por perdido a los dos. En caso de empate al final de la fase de grupos, se realizará un partido de desempate en la semana siguiente a finalizar todos los partidos de un mismo grupo, aunque se permite acordar fecha cuanto antes, el plazo máximo es de una semana."
+    }
 }

@@ -13,18 +13,18 @@ export default function Principal() {
 
   return (
     <div className="principal fade-in container d-flex flex-column align-items-center justify-content-center">
-      <h2 className="m-4">{t('welcome')}</h2>
+      <h2 className="m-4 text-center">{t('welcome')}</h2>
       <div className="text-container col-12 m-3 d-flex">
         <t>{t('description')}</t>
       </div>
       <div className="col-12 m-2 d-flex flex-row align-items-center justify-content-center">
-        <div className="col-2 d-flex flex-row align-items-center justify-content-center">
+        <div className="col-5 col-sm-4 col-md-2 d-flex flex-row align-items-center justify-content-center">
           <img src={bronze} alt='bronze'></img>
         </div>
         <div className="col-2 d-flex flex-row align-items-center justify-content-center">
           <img className="arrow-st" src={arrow} alt='arrow'></img>
         </div>
-        <div className="col-2 d-flex flex-row align-items-center justify-content-center">
+        <div className="col-5 col-sm-4 col-md-2 d-flex flex-row align-items-center justify-content-center">
           <img src={gold} alt='gold'></img>
         </div>
       </div>

@@ -60,3 +60,13 @@
 .teampage img {
     width: 300px;
 }
+
+@media (max-width: 750px) {
+    .teampage {
+      flex-direction: column;
+    }
+
+    .teampage .content {
+        width: 100%;
+    }
+}

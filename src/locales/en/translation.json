@@ -12,5 +12,11 @@
     "back": "Come back",
     "manager": "Team's manager",
     "x-profile": "X profile",
-    "nothing": "Nothing to see there..."
+    "nothing": "Nothing to see there...",
+    "more-info": {
+        "par-1": "The competition will have a fixed duration of five weeks, three for the qualifying phase, where one match will be played weekly, and two for the elimination phase, including the semi-final, final, and the third and fourth place match. The group stage matches will be assigned just before the start of the competition.",
+        "par-2": "Matches will not have a fixed schedule; instead, teams will decide the date on which they will play. Furthermore, if a team cannot play in a given week, their match can be postponed for up to a maximum of three weeks from the group assignment. Essentially, teams may play all three group stage matches from their announcement up to a deadline of three weeks.",
+        "par-3": "If any team does not complete its three matches, both teams will forfeit the game. In the event of a tie at the end of the group stage, a tiebreaker match will be held the week following the completion of all matches within the same group. Although an earlier date can be agreed upon, the maximum period allowed is one week."
+    }
+
 }

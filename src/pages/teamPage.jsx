@@ -47,7 +47,6 @@ export default function TeamPage({ teamData }) {
               <a href={team.twitter.url}><img className="logo inverted" src={twitter} alt="twitter" /></a>
               </>
             )}
-            
           </div>
         </div>
         <a className="opgg-link m-3 p-2" href={team.opgg} target="_blank" rel="noopener noreferrer">

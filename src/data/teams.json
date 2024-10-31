@@ -42,5 +42,15 @@
         "manager": "zedgod__",
         "img": "../teams/carthage.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=storm%23maki%2Cdevansi%230505%2CLynexa%23adc%2CCallMeChou%23238%2CZÖMBÏE%23EUW%2CSeraQuèen%23EUW%2CLuciferios%23EUW"
+    },
+    "SVG Team": {
+        "id": 6,
+        "twitter": {
+            "url": "https://x.com/SavageIEVR",
+            "arr": "@SavageIEVR"
+        },
+        "manager": "cebohr",
+        "img": "../teams/svg.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Cębø%23ESP%2CVarobayTdestrosa%23EUW%2CNEO%23ADRI%2CRevuGLMS%23EUW"
     }
 }

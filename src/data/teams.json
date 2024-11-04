@@ -52,5 +52,12 @@
         "manager": "cebohr",
         "img": "../teams/svg.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Cębø%23ESP%2CVarobayTdestrosa%23EUW%2CNEO%23ADRI%2CRevuGLMS%23EUW%2CElBajaPandas%23holaa"
+    }.
+    "ByeQ": {
+        "id": 7,
+        "twitter": "https://x.com",
+        "manager": "asdrea",
+        "img": "../teams/byeq.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Lettuce+Windows%236969%2CBalmyV%23EUW%2CHera%23ELDEN%2CAsdrea%23ESP%2CJuanfran%23SSe"
     }
 }

@@ -1,0 +1,18 @@
+.team-row img{
+    width: 70px;
+    height: 70px;
+}
+
+.team-row {
+    cursor: pointer;
+    border-top: 3px solid white;
+}
+
+.team-row h3 {
+    cursor: pointer;
+    color: white;
+}
+
+.team-row:hover {
+    background-color: rgb(72, 72, 72);
+}

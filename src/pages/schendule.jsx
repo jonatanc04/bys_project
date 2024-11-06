@@ -1,9 +1,14 @@
-import React from "react"
+import React from "react";
+import weeks from "../data/weeks.json";
+import '../assets/styles/Schendule.css';
+import SchenduleWeek from "../comps/SchenduleWeek";
 
-export default function Schendule () {
-    return (
-        <div className="fade-in container d-flex flex-column align-items-center justify-content-center">
-            <h4 className="m-4">Work in progress...</h4>
-        </div>
-    )
+export default function Schendule() {
+  return (
+    <div className="fade-in container d-flex flex-column align-items-center justify-content-center">
+      {Object.entries(weeks).map(([weekNumber, weekData]) => (
+        <SchenduleWeek key={weekNumber} weekNumber={weekNumber} weekData={weekData} />
+      ))}
+    </div>
+  );
 }

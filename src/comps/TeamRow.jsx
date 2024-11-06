@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../assets/styles/TeamRow.css';
 
 export default function TeamRow({ teamName, teamData }) {
 

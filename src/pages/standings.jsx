@@ -18,8 +18,8 @@ export default function Standings() {
 
   return (
     <div className="fade-in container d-flex flex-column align-items-center justify-content-center">
-      <div className="standings m-4 p-4 col-12 d-flex flex-row align-items-center justify-content-around">
-        <div className="group p-4 col-6">
+      <div className="standings m-4 p-4 col-12 d-flex flex-column flex-lg-row align-items-center justify-content-around">
+        <div className="group p-4 col-12 col-lg-6">
           <h3 className="text-center">{t('group')} 1</h3>
           <div className="d-flex p-2 flex-row justify-content-end">
             <div className="col-8"></div>
@@ -30,7 +30,7 @@ export default function Standings() {
             <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} />
           ))}
         </div>
-        <div className="group p-4 col-6">
+        <div className="group p-4 col-12 col-lg-6">
           <h3 className="text-center">{t('group')} 2</h3>
           <div className="d-flex p-2 flex-row justify-content-end">
             <div className="col-8"></div>

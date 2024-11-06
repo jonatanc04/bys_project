@@ -1,0 +1,32 @@
+{
+    "1": {
+        "1": {
+            "Game 1": ["Blunt & Spicy", "0-0", "Game of Toddlers"],
+            "Game 2": ["Carthage Legions", "0-0", "ByeQ"]
+        },
+        "2": {
+            "Game 1": ["Walo MINI", "0-0", "Dorint"],
+            "Game 2": ["SVG Team", "0-0", "TuPrima"]
+        }
+    },
+    "2": {
+        "1": {
+            "Game 1": ["ByeQ", "0-0", "Game of Toddlers"],
+            "Game 2": ["Carthage Legions", "0-0", "Blunt & Spicy"]
+        },
+        "2": {
+            "Game 1": ["TuPrima", "0-0", "Dorint"],
+            "Game 2": ["SVG Team", "0-0", "Walo MINI"]
+        }
+    },
+    "3": {
+        "1": {
+            "Game 1": ["Game of Toddlers", "0-0", "Carthage Legions"],
+            "Game 2": ["ByeQ", "0-0", "Blunt & Spicy"]
+        },
+        "2": {
+            "Game 1": ["Dorint", "0-0", "SVG Team"],
+            "Game 2": ["TuPrima", "0-0", "Walo MINI"]
+        }
+    }
+}

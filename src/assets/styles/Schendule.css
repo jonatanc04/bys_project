@@ -1,0 +1,20 @@
+.schendule {
+    background-color: black;
+    border-left: 8px solid white;
+}
+
+.schendule .group:first-of-type {
+    border-right: 1px solid white;
+}
+
+.schendule .group:last-of-type {
+    border-left: 1px solid white;
+}
+
+.schendule .game-row {
+    cursor: pointer;
+}
+
+.schendule .game-row:hover {
+    background-color: rgb(72, 72, 72);
+}

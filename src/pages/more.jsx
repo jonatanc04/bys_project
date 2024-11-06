@@ -10,7 +10,11 @@ export default function More() {
     <div className="more-info fade-in container d-flex flex-column align-items-start justify-content-start">
       <t className="p-3 m-2">{t('more-info.par-1')}</t>
       <t className="p-3 m-2">{t('more-info.par-2')}</t>
+      <t className="p-3 m-2">{t('more-info.par-4')}</t>
       <t className="p-3 m-2">{t('more-info.par-3')}</t>
+      <t className="p-3 m-2">{t('more-info.par-5')}</t>
+      <t className="p-3 m-2">{t('more-info.par-6')}</t>
+      <t className="p-3 m-2">{t('more-info.par-7')}</t>
     </div>
   )
 }

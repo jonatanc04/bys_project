@@ -1,0 +1,22 @@
+.standings {
+    background-color: black;
+}
+
+.standings img{
+    width: 70px;
+    height: 70px;
+}
+
+.standings .team-row {
+    cursor: pointer;
+    border-top: 3px solid white;
+}
+
+.standings .team-row h3 {
+    cursor: pointer;
+    color: white;
+}
+
+.standings .team-row:hover {
+    background-color: rgb(72, 72, 72);
+}

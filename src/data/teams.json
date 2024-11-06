@@ -7,7 +7,9 @@
         },
         "manager": "sirinazurey",
         "img": "../teams/blunt.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=Sidern%23BYS%2CGH%C3%96StLI%23EUW%2CEZ4RAGE%23EUW%2CKotufox%C3%90%23EUW%2CD6+Luservadelao%23DLK%2C+Manite%23JLL%2C"
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Sidern%23BYS%2CGH%C3%96StLI%23EUW%2CEZ4RAGE%23EUW%2CKotufox%C3%90%23EUW%2CD6+Luservadelao%23DLK%2C+Manite%23JLL%2C",
+        "wins": 0,
+        "lose": 0
     },
     "Walo MINI": {
         "id": 2,
@@ -17,21 +19,27 @@
         },
         "manager": ".ivs.",
         "img": "../teams/walo.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=WL%2BWwonka%232432,WL%2BElbala%235303,WL%2BKıngNa%231411,WL%2BCalvito%23FAP,WL%2BImugi%233122"
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=WL%2BWwonka%232432,WL%2BElbala%235303,WL%2BKıngNa%231411,WL%2BCalvito%23FAP,WL%2BImugi%233122",
+        "wins": 0,
+        "lose": 0
     },
     "Game of Toddlers": {
         "id": 3,
         "twitter": "https://x.com",
         "manager": "nic4847",
         "img": "../teams/toddlers.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=HellandTop%23Sky%2CNcLw0w%239117%2CHanasöf%23euw%2CCorki420%23EUW%2CSonged420%23EUW"
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=HellandTop%23Sky%2CNcLw0w%239117%2CHanasöf%23euw%2CCorki420%23EUW%2CSonged420%23EUW",
+        "wins": 0,
+        "lose": 0
     },
     "Dorint": {
         "id": 4,
         "twitter": "https://x.com",
         "manager": "madcat73_11698",
         "img": "../teams/dorint.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW "
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW",
+        "wins": 0,
+        "lose": 0
     },
     "Carthage Legions": {
         "id": 5,
@@ -41,7 +49,9 @@
         },
         "manager": "zedgod__",
         "img": "../teams/carthage.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=storm%23maki%2Cdevansi%230505%2CLynexa%23adc%2CCallMeChou%23238%2CZÖMBÏE%23EUW%2CSeraQuèen%23EUW%2CLuciferios%23EUW"
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=storm%23maki%2Cdevansi%230505%2CLynexa%23adc%2CCallMeChou%23238%2CZÖMBÏE%23EUW%2CSeraQuèen%23EUW%2CLuciferios%23EUW",
+        "wins": 0,
+        "lose": 0
     },
     "SVG Team": {
         "id": 6,
@@ -51,13 +61,26 @@
         },
         "manager": "cebohr",
         "img": "../teams/svg.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=C%C4%99b%C3%B8%23ESP%2CVarobayTdestrosa%23EUW%2Cdaltpaul%23EUW%2CRevuGLMS%23EUW%2CMMM+Apolo+K%23EUW"
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=C%C4%99b%C3%B8%23ESP%2CVarobayTdestrosa%23EUW%2Cdaltpaul%23EUW%2CRevuGLMS%23EUW%2CMMM+Apolo+K%23EUW",
+        "wins": 0,
+        "lose": 0
     },
     "ByeQ": {
         "id": 7,
         "twitter": "https://x.com",
         "manager": "asdrea",
         "img": "../teams/byeq.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=Lettuce+Windows%236969%2CBalmyV%23EUW%2CHera%23ELDEN%2CAsdrea%23ESP%2CJuanfran%23SSe"
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Lettuce+Windows%236969%2CBalmyV%23EUW%2CHera%23ELDEN%2CAsdrea%23ESP%2CJuanfran%23SSe%2CRayoEnyojer%23EUW",
+        "wins": 0,
+        "lose": 0
+    },
+    "TuPrima": {
+        "id": 8,
+        "twitter": "https://x.com",
+        "manager": "myrdd",
+        "img": "../teams/default.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Janter12-EUW%2CTPM+Cosacus%2Cbejahervas%2CAngár%2Cserpix%23serpi%2CJanter12%23EUW%2CTPM+Myrddraal",
+        "wins": 0,
+        "lose": 0
     }
 }

@@ -10,7 +10,7 @@ export default function SchenduleWeek({ weekNumber, weekData }) {
       <h3 className="col-12 text-center">{t('week')} {weekNumber}</h3>
       {Object.entries(weekData).map(([groupNumber, gameData]) => (
         <div className='col-12 col-lg-6'>
-          <h4 className="col-12 text-center m-0">{t('group')} {groupNumber}</h4>
+          <h4 className="col-12 text-center">{t('group')} {groupNumber}</h4>
           <div key={groupNumber} className={`group${groupNumber} col-12 d-flex flex-column`}>
             {Object.entries(gameData).map(([gameKey, gameInfo]) => (
               <GameRow key={gameKey} gameInfo={gameInfo}></GameRow>

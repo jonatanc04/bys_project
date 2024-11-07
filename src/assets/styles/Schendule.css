@@ -3,12 +3,18 @@
     border-left: 8px solid white;
 }
 
-.schendule .group:first-of-type {
+.schendule .group1 {
     border-right: 1px solid white;
 }
 
-.schendule .group:last-of-type {
+.schendule .group2 {
     border-left: 1px solid white;
+}
+
+@media (max-width: 991.98px) {
+    .schendule .group1, .schendule .group2 {
+        border: none;
+    }
 }
 
 .schendule .game-row {

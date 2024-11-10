@@ -41,15 +41,15 @@
         "wins": 0,
         "lose": 0
     },
-    "Carthage Legions": {
+    "Fenix Academy": {
         "id": 5,
         "twitter": {
-            "url": "https://x.com/CarthageLegions",
-            "arr": "@CarthageLegions"
+            "url": "https://x.com/fnxclub",
+            "arr": "@fnxclub"
         },
-        "manager": "zedgod__",
-        "img": "../teams/carthage.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=storm%23maki%2Cdevansi%230505%2CLynexa%23adc%2CCallMeChou%23238%2CZÖMBÏE%23EUW%2CSeraQuèen%23EUW%2CLuciferios%23EUW",
+        "manager": "alvaromup",
+        "img": "../teams/fenix.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=SAD+Skara%232313%2CZ0D+Sergio%23999%2CInti%23PERU%2CEaven%23TPS%2CFNX+iVonyxx%23006%2CFNX+Sergio%23999%2CMr+Xmas%23EUW",
         "wins": 0,
         "lose": 0
     },

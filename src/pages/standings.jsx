@@ -10,11 +10,21 @@ export default function Standings() {
   
   const group1 = Object.entries(teams)
     .filter(([_, teamData]) => teamData.id % 2 !== 0)
-    .sort(([, a], [, b]) => b.wins - a.wins);
+    .sort(([, a], [, b]) => {
+      if (b.wins !== a.wins) {
+        return b.wins - a.wins;
+      }
+      return a.lose - b.lose;
+    });
 
   const group2 = Object.entries(teams)
     .filter(([_, teamData]) => teamData.id % 2 === 0)
-    .sort(([, a], [, b]) => b.wins - a.wins);
+    .sort(([, a], [, b]) => {
+      if (b.wins !== a.wins) {
+        return b.wins - a.wins;
+      }
+      return a.lose - b.lose;
+    });
 
   return (
     <div className="fade-in container d-flex flex-column align-items-center justify-content-center">

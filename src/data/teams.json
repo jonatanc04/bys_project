@@ -9,7 +9,7 @@
         "img": "../teams/blunt.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Sidern%23BYS%2CGH%C3%96StLI%23EUW%2CEZ4RAGE%23EUW%2CKotufox%C3%90%23EUW%2CD6+Luservadelao%23DLK%2CManite%23JLL",
         "wins": 0,
-        "lose": 0
+        "lose": 1
     },
     "Walo MINI": {
         "id": 2,
@@ -29,7 +29,7 @@
         "manager": "nic4847",
         "img": "../teams/toddlers.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=HellandTop%23Sky%2CNcLw0w%239117%2CHanasöf%23euw%2CCorki420%23EUW%2CSonged420%23EUW",
-        "wins": 0,
+        "wins": 1,
         "lose": 0
     },
     "Dorint": {

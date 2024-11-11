@@ -1,32 +1,32 @@
 {
     "1": {
         "1": {
-            "Game 1": ["Blunt & Spicy", "0-1", "Game of Toddlers", "10/11 - 20:00 CET"],
-            "Game 2": ["Fenix Academy", "0-0", "ByeQ", "17/11 - 20:00 CET"]
+            "Game 1": ["Blunt & Spicy", "0-1", "Game of Toddlers", "10/11 - 20:00 CET","../results/bysgotgame1.png"],
+            "Game 2": ["Fenix Academy", "0-0", "ByeQ", "17/11 - 20:00 CET",""]
         },
         "2": {
-            "Game 1": ["Walo MINI", "0-0", "Dorint", "15/11 - 22:30 CET"],
-            "Game 2": ["SVG Team", "0-0", "TuPrima", "17/11 - 20:00 CET"]
+            "Game 1": ["Walo MINI", "0-0", "Dorint", "15/11 - 22:30 CET",""],
+            "Game 2": ["SVG Team", "0-0", "TuPrima", "17/11 - 20:00 CET",""]
         }
     },
     "2": {
         "1": {
-            "Game 1": ["ByeQ", "0-0", "Game of Toddlers", "24/11 - 20:00 CET"],
-            "Game 2": ["Fenix Academy", "0-0", "Blunt & Spicy", "24/11 - 20:00 CET"]
+            "Game 1": ["ByeQ", "0-0", "Game of Toddlers", "21/11 - 21:00 CET",""],
+            "Game 2": ["Fenix Academy", "0-0", "Blunt & Spicy", "24/11 - 20:00 CET",""]
         },
         "2": {
-            "Game 1": ["TuPrima", "0-0", "Dorint", "24/11 - 20:00 CET"],
-            "Game 2": ["SVG Team", "0-0", "Walo MINI", "24/11 - 20:00 CET"]
+            "Game 1": ["TuPrima", "0-0", "Dorint", "24/11 - 20:00 CET",""],
+            "Game 2": ["SVG Team", "0-0", "Walo MINI", "24/11 - 20:00 CET",""]
         }
     },
     "3": {
         "1": {
-            "Game 1": ["Game of Toddlers", "0-0", "Fenix Academy", "1/12 - 20:00 CET"],
-            "Game 2": ["ByeQ", "0-0", "Blunt & Spicy", "1/12 - 20:00 CET"]
+            "Game 1": ["Game of Toddlers", "0-0", "Fenix Academy", "1/12 - 20:00 CET",""],
+            "Game 2": ["ByeQ", "0-0", "Blunt & Spicy", "1/12 - 20:00 CET",""]
         },
         "2": {
-            "Game 1": ["Dorint", "0-0", "SVG Team", "1/12 - 20:00 CET"],
-            "Game 2": ["TuPrima", "0-0", "Walo MINI", "1/12 - 20:00 CET"]
+            "Game 1": ["Dorint", "0-0", "SVG Team", "1/12 - 20:00 CET",""],
+            "Game 2": ["TuPrima", "0-0", "Walo MINI", "1/12 - 20:00 CET",""]
         }
     }
 }

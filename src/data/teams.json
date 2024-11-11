@@ -1,6 +1,7 @@
 {
     "Blunt & Spicy": {
         "id": 1,
+        "active": true,
         "twitter": {
             "url": "https://x.com/BluntSpicyLoL",
             "arr": "@BluntSpicyLoL"
@@ -13,6 +14,7 @@
     },
     "Walo MINI": {
         "id": 2,
+        "active": true,
         "twitter": {
             "url": "https://x.com/WaloESP",
             "arr": "@WaloESP"
@@ -25,6 +27,7 @@
     },
     "Game of Toddlers": {
         "id": 3,
+        "active": true,
         "twitter": "https://x.com",
         "manager": "nic4847",
         "img": "../teams/toddlers.png",
@@ -34,6 +37,7 @@
     },
     "Dorint": {
         "id": 4,
+        "active": true,
         "twitter": "https://x.com",
         "manager": "madcat73_11698",
         "img": "../teams/dorint.png",
@@ -43,18 +47,20 @@
     },
     "Fenix Academy": {
         "id": 5,
+        "active": true,
         "twitter": {
             "url": "https://x.com/fnxclub",
             "arr": "@fnxclub"
         },
         "manager": "alvaromup",
         "img": "../teams/fenix.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=FNX+Skara%232313%2CFNX+Sergio%23999%2CInti%23PERU%2CEaven%23TPS%2CFNX+iVonyxx%23006%2CFNX+Sergio%23999%2CMr+Xmas%23EUW",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=FNX+Skara%232313%2CFNX+Sergio%23999%2CInti%23PERU%2CEaven%23TPS%2CFNX+iVonyxx%23006%2CMr+Xmas%23EUW",
         "wins": 0,
         "lose": 0
     },
     "SVG Team": {
         "id": 6,
+        "active": true,
         "twitter": {
             "url": "https://x.com/SavageIEVR",
             "arr": "@SavageIEVR"
@@ -67,6 +73,7 @@
     },
     "ByeQ": {
         "id": 7,
+        "active": true,
         "twitter": "https://x.com",
         "manager": "asdrea",
         "img": "../teams/byeq.png",
@@ -76,10 +83,21 @@
     },
     "TuPrima": {
         "id": 8,
+        "active": true,
         "twitter": "https://x.com",
         "manager": "myrdd",
         "img": "../teams/tuprima.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Janter12-EUW%2CTPM+Cosacus%2Cbejahervas%2CAngár%2Cserpix%23serpi%2CJanter12%23EUW%2CTPM+Myrddraal",
+        "wins": 0,
+        "lose": 0
+    },
+    "Default Team": {
+        "id": 9,
+        "active": false,
+        "twitter": "https://x.com",
+        "manager": "default",
+        "img": "../teams/default.png",
+        "opgg": "https://www.op.gg/",
         "wins": 0,
         "lose": 0
     }

@@ -5,6 +5,7 @@ import "../assets/styles/Principal.css"
 import bronze from '../assets/images/bronze.png'
 import arrow from '../assets/images/arrow.png'
 import gold from '../assets/images/gold.png'
+import platinum from '../assets/images/platinum.png'
 import x from '../assets/images/x-logo.png'
 
 export default function Principal() {
@@ -24,8 +25,9 @@ export default function Principal() {
         <div className="col-2 d-flex flex-row align-items-center justify-content-center">
           <img className="arrow-st" src={arrow} alt='arrow'></img>
         </div>
-        <div className="col-5 col-sm-4 col-md-2 d-flex flex-row align-items-center justify-content-center">
-          <img src={gold} alt='gold'></img>
+        <div className="pass-img col-5 col-sm-4 col-md-2 d-flex flex-row align-items-center justify-content-center">
+          <img className="hidden" src={platinum} alt='platinum'></img>
+          <img className="no-hidden" src={gold} alt='gold'></img>
         </div>
       </div>
       <div className="text-container col-12 m-3 d-flex">

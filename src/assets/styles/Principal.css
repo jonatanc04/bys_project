@@ -28,3 +28,25 @@
     transform: translateX(-3px) translateY(-3px);
     filter: invert(100%) drop-shadow(3px 3px 0px black);
 }
+
+.principal .no-hidden {
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.principal .hidden {
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+.pass-img:hover .no-hidden {
+    opacity: 0;
+}
+
+.pass-img:hover .hidden {
+    opacity: 1;
+}
+
+.principal .pass-img img {
+    position: absolute;
+}

@@ -23,6 +23,7 @@
         "par-7": "We trust in the honesty of teams and players, so I will skip common tournament rules, such as maintaining proper position order in the lobby before the match, not abusing pauses for more than 15 minutes, using /all chat only when strictly necessary, mutual respect, no smurfing (if any player has another account they frequently use, it must be included in the team's OPGG), etc. Remember, we are here to have fun, not to ruin the competitive experience that this tournament aims to provide. Any team that violates any of these rules will be subject to penalties, ranging from a temporary ban of a player to expulsion from the competition, depending on the severity of the infraction."
     },
     "group": "Group",
-    "week": "Week"
+    "week": "Week",
+    "game": "Game"
 
 }

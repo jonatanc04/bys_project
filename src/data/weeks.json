@@ -1,12 +1,12 @@
 {
     "1": {
         "1": {
-            "Game 1": ["Blunt & Spicy", "0-1", "Game of Toddlers", "10/11 - 20:00 CET",["../results/bysgotgame1.png"]],
+            "Game 1": ["Blunt & Spicy", "0-1", "Game of Toddlers", "10/11 - 20:00 CET",["../results/bysgot_week1_game1.png"]],
             "Game 2": ["Fenix Academy", "0-0", "ByeQ", "17/11 - 20:00 CET",""]
         },
         "2": {
             "Game 1": ["Walo MINI", "0-0", "Dorint", "15/11 - 22:30 CET",""],
-            "Game 2": ["SVG Team", "0-0", "TuPrima", "13/11 - 22:00 CET",""]
+            "Game 2": ["SVG Team", "1-0", "TuPrima", "13/11 - 22:00 CET",["../results/svgtpm_week1_game1.png"]]
         }
     },
     "2": {

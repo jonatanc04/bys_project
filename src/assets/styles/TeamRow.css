@@ -6,6 +6,11 @@
 .team-row {
     cursor: pointer;
     border-top: 3px solid white;
+    transition: all 0.2s ease-in;
+}
+
+.qualify {
+    background-color: rgb(28, 79, 28);
 }
 
 .team-row h3 {

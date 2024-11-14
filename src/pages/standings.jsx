@@ -36,8 +36,8 @@ export default function Standings() {
             <h4 className="col-2 m-0 text-center">W</h4>
             <h4 className="col-2 m-0 text-center">L</h4>
           </div>
-          {group1.map(([teamName, teamData]) => (
-            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} />
+          {group1.map(([teamName, teamData], index) => (
+            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} index={index} />
           ))}
         </div>
         <div className="group p-4 col-12 col-lg-6">
@@ -47,10 +47,14 @@ export default function Standings() {
             <h4 className="col-2 m-0 text-center">W</h4>
             <h4 className="col-2 m-0 text-center">L</h4>
           </div>
-          {group2.map(([teamName, teamData]) => (
-            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} />
+          {group2.map(([teamName, teamData], index) => (
+            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} index={index} />
           ))}
         </div>
+      </div>
+      <div className="legend col-12 d-flex flex-row align-items-center justify-content-end">
+        <div className="legend-cube"></div>
+        <h5 className="m-0 p-3">{t('qualify')}</h5>
       </div>
     </div>
   );

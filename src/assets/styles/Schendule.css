@@ -19,6 +19,7 @@
 
 .schendule .game-row {
     cursor: pointer;
+    transition: all 0.2s ease-in;
 }
 
 .schendule .game-row:hover {
@@ -43,7 +44,7 @@
 
 .schendule .result-div img {
     cursor: pointer;
-    width: 1000px;
+    width: 50vw;
 }
 
 .schendule .result-div h1 {

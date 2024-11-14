@@ -3,6 +3,7 @@
     font-weight: bold;
     color: white;
     border-radius: 50px;
+    transition: all 0.2s ease-in;
 }
 
 .navButton:hover {

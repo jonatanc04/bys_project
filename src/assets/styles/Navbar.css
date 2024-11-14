@@ -5,6 +5,7 @@ nav {
 nav h1 {
     font-style: italic;
     color: white;
+    transition: all 0.2s ease-in;
 }
 
 nav h1:hover {

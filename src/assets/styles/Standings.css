@@ -1,3 +1,9 @@
 .standings {
     background-color: black;
 }
+
+.legend-cube {
+    background-color: rgb(28, 79, 28);
+    height: 20px;
+    width: 20px;
+}

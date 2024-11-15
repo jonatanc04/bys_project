@@ -48,7 +48,10 @@
     "Penguin Esports": {
         "id": 5,
         "active": true,
-        "twitter": "https://x.com",
+        "twitter": {
+            "url": "https://x.com/PenguinEsportES",
+            "arr": "@PenguinEsportES"
+        },
         "manager": "milesvor",
         "img": "../teams/penguin.png",
         "opgg": "https://www.op.gg/",

@@ -22,7 +22,7 @@
         "manager": ".ivs.",
         "img": "../teams/walo.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=WL%2BWwonka%232432,WL%2BElbala%235303,WL%2BKıngNa%231411,WL%2BCalvito%23FAP,WL%2BImugi%233122",
-        "wins": 0,
+        "wins": 1,
         "lose": 0
     },
     "Game of Toddlers": {
@@ -43,7 +43,7 @@
         "img": "../teams/dorint.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW%2Cjonasmalecki%23EUW%2C",
         "wins": 0,
-        "lose": 0
+        "lose": 1
     },
     "Penguin Esports": {
         "id": 5,

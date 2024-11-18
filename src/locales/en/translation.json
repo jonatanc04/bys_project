@@ -25,5 +25,7 @@
     "group": "Group",
     "week": "Week",
     "game": "Game",
-    "qualify": "Qualify"
+    "qualify": "Qualify",
+    "group-button": "Group Phase",
+    "elimin-button": "Elimination Phase"
 }

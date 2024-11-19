@@ -22,6 +22,10 @@
     transition: all 0.2s ease-in;
 }
 
+.schendule .game-row .finished {
+    background-color: rgb(28, 79, 28);
+}
+
 .schendule .game-row:hover {
     background-color: rgb(72, 72, 72);
 }

@@ -29,5 +29,6 @@
     "group-button": "Fase de Grupos",
     "elimin-button": "Fase de Eliminación",
     "finished": "Terminado",
-    "cancelled": "Cancelado"
+    "cancelled": "Cancelado",
+    "winner": "Ganador"
 }

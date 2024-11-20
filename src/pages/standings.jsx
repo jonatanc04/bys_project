@@ -23,7 +23,7 @@ export default function Standings() {
       {showGroups ? (
         <Groups teams={teams} />
       ) : (
-        <Elimination />
+        <Elimination teams={teams} />
       )}
     </div>
   );

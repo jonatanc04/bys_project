@@ -1,3 +1,19 @@
 .elimination {
     background-color: black;
 }
+
+.elimination-block .elimination-row img {
+    margin-right: 20px;
+}
+
+.elimination-block .elimination-row h3 {
+    border-right: 3px solid white;
+}
+
+.elimination-block .border-bot {
+    border-bottom: 3px solid white;
+}
+
+.elimination .separator {
+    height: 100px;
+}

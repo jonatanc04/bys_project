@@ -27,5 +27,7 @@
     "game": "Game",
     "qualify": "Qualify",
     "group-button": "Group Phase",
-    "elimin-button": "Elimination Phase"
+    "elimin-button": "Elimination Phase",
+    "finished": "Finished",
+    "cancelled": "Cancelled"
 }

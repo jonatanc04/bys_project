@@ -27,5 +27,7 @@
     "game": "Partida",
     "qualify": "Clasifican",
     "group-button": "Fase de Grupos",
-    "elimin-button": "Fase de Eliminación"
+    "elimin-button": "Fase de Eliminación",
+    "finished": "Terminado",
+    "cancelled": "Cancelado"
 }

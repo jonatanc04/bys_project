@@ -25,7 +25,11 @@ export default function GameRow({ gameInfo }) {
         {gameInfo[1] === "0-0" ? (
           <h4 className="col-2 m-0 d-flex align-items-center justify-content-center">{gameInfo[1]}</h4>
         ) : (
-          <h4 className="col-2 m-0 finished d-flex align-items-center justify-content-center">{gameInfo[1]}</h4>
+          gameInfo[4] === "" ? (
+            <h4 className="col-2 m-0 cancelled d-flex align-items-center justify-content-center">{gameInfo[1]}</h4>
+          ) : (
+            <h4 className="col-2 m-0 finished d-flex align-items-center justify-content-center">{gameInfo[1]}</h4>
+          )
         )}
         <h5 className="col-4 m-0 d-flex align-items-center justify-content-center">{gameInfo[2]}</h5>
         <img className="logo col-1" src={url + team2[1].img} alt="img" />

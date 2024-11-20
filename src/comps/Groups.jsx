@@ -1,5 +1,6 @@
 import TeamRow from "../comps/TeamRow";
 import { useTranslation } from 'react-i18next';
+import LegendCube from "./LegendCube";
 
 export default function Groups({ teams }) {
 
@@ -50,8 +51,7 @@ export default function Groups({ teams }) {
         </div>
       </div>
       <div className="legend col-12 d-flex flex-row align-items-center justify-content-end">
-        <div className="legend-cube"></div>
-        <h5 className="m-0 p-3">{t('qualify')}</h5>
+        <LegendCube color={"green"} text={t('qualify')} />
       </div>
     </>
   )

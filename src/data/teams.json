@@ -42,7 +42,7 @@
         "manager": "madcat73_11698",
         "img": "../teams/dorint.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW%2Cjonasmalecki%23EUW%2C",
-        "wins": 0,
+        "wins": 1,
         "lose": 1
     },
     "Penguin Esports": {
@@ -89,7 +89,7 @@
         "img": "../teams/tuprima.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Janter12-EUW%2CTPM+Cosacus%2Cbejahervas%2CAngár%2Cserpix%23serpi%2CJanter12%23EUW%2CTPM+Myrddraal",
         "wins": 0,
-        "lose": 1
+        "lose": 2
     },
     "Fenix Academy": {
         "id": 9,

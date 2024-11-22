@@ -13,6 +13,7 @@
 }
 
 .team-card h3 {
+    z-index: 1;
     order: 999;
     color: white;
 }
@@ -22,6 +23,7 @@
 }
 
 .team-card::before {
+    z-index: 0;
     content: "";
     position: absolute;
     top: 0;
@@ -31,7 +33,7 @@
     background: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.1) 0%,
-        rgba(255, 255, 255, 0.2) 50%,
+        rgba(47,87,38,1) 50%,
         rgba(0, 0, 0, 0.1) 100%
     );
     transform: translateX(-100%);

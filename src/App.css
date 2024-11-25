@@ -19,7 +19,8 @@ a {
 }
 
 body {
-    background-color: #0f1f2c;
+    background: rgb(15,31,44);
+    background: linear-gradient(90deg, rgba(15,31,44,1) 0%, rgba(47,87,38,1) 50%, rgba(15,31,44,1) 100%);
     position: relative;
     height: 100vh;
 }

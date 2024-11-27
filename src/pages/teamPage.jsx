@@ -11,7 +11,7 @@ export default function TeamPage({ teamData }) {
   const navigate = useNavigate();
 
   const teamsArray = Object.entries(teamData);
-  const [teamName, team] = teamsArray.find(([key, value]) => value.id === parseInt(id)) || [];
+  const [teamName, team] = teamsArray.find(([_, value]) => value.id === parseInt(id)) || [];
 
   if (!team) {
     return (
@@ -22,12 +22,22 @@ export default function TeamPage({ teamData }) {
     );
   }
 
+  const publicURL = process.env.PUBLIC_URL;
+  const roleImages = [
+    "/images/lol_role_top.png",
+    "/images/lol_role_jungle.png",
+    "/images/lol_role_mid.png",
+    "/images/lol_role_bot.png",
+    "/images/lol_role_support.png",
+    "/images/lol_role_fill.png",
+  ];
+
   return (
     <>
       <div className="teampage fade-in container d-flex flex-wrap justify-content-center align-items-center">
         <h1 className="col-12 p-3 m-3 text-center">{teamName}</h1>
         <div className="content col-6 d-flex justify-content-center align-items-center">
-          <img src={process.env.PUBLIC_URL + team.img} alt={`${teamName} Logo`} />
+          <img src={`${publicURL}${team.img}`} alt={`${teamName} Logo`} />
         </div>
         <div className="content col-6 d-flex flex-column justify-content-center align-items-center">
           <div className="col-8 col-lg-6">
@@ -40,12 +50,12 @@ export default function TeamPage({ teamData }) {
           <div className="col-8 col-lg-6">
             <h3>{t('x-profile')}</h3>
             <div className="col-12 d-flex flex-row justify-content-between">
-              { team.twitter === "https://x.com" ? (
+              {team.twitter === "https://x.com" ? (
                 <h5 className="col-12 text-center">{t('nothing')}</h5>
               ) : (
                 <>
-                <h5><i>{team.twitter.arr}</i></h5>
-                <a href={team.twitter.url}><img className="logo inverted" src={twitter} alt="twitter" /></a>
+                  <h5><i>{team.twitter.arr}</i></h5>
+                  <a href={team.twitter.url}><img className="logo inverted" src={twitter} alt="twitter" /></a>
                 </>
               )}
             </div>
@@ -56,42 +66,30 @@ export default function TeamPage({ teamData }) {
         </div>
       </div>
       <div className="teampage fade-in container d-flex flex-column justify-content-center align-items-center">
-        <h1 className="col-12 p-3 m-3 text-center">Players</h1>
-        <div className="content col-12 p-4 d-flex flex-wrap justify-content-center align-items-center">
-          {team.players.map((player, index) => {
-            let roleImage;
-
-            switch (index) {
-              case 0:
-                roleImage = process.env.PUBLIC_URL + "/images/lol_role_top.png";
-                break;
-              case 1:
-                roleImage = process.env.PUBLIC_URL + "/images/lol_role_jungle.png";
-                break;
-              case 2:
-                roleImage = process.env.PUBLIC_URL + "/images/lol_role_mid.png";
-                break;
-              case 3:
-                roleImage = process.env.PUBLIC_URL + "/images/lol_role_bot.png";
-                break;
-              case 4:
-                roleImage = process.env.PUBLIC_URL + "/images/lol_role_support.png";
-                break;
-              default:
-                roleImage = process.env.PUBLIC_URL + "/images/lol_role_fill.png";
-            }
-
-            return (
-              <div key={index} className="m-2 p-2 col-2 d-flex flex-column justify-content-center align-items-center" 
-              style={{ 
-                backgroundColor: "#2b2b2b",
-                borderRadius: "50px"
-              }}>
+        <h1 className="col-12 p-3 m-3 text-center">{t('players')}</h1>
+        <div className="content2 col-12 p-4 d-flex flex-wrap justify-content-center align-items-center">
+          <h4 className="col-12 text-center p-2">{t('principal')}</h4>
+          {team.players.map((player, index) => (
+            <React.Fragment key={index}>
+              {index === 5 && (
+                <h4 className="col-12 text-center p-2">{t('subs')}</h4>
+              )}
+              <div
+                className="m-2 p-2 col-2 d-flex flex-column justify-content-center align-items-center"
+                style={{
+                  backgroundColor: "#2b2b2b",
+                  borderRadius: "50px",
+                }}
+              >
                 <h4 className="col-12 text-center">{player}</h4>
-                <img src={roleImage} alt={`Role ${index}`} style={{ width: "80px" }} />
+                <img
+                  src={`${publicURL}${roleImages[index] || roleImages[5]}`}
+                  alt={`Role ${index}`}
+                  style={{ width: "80px" }}
+                />
               </div>
-            );
-          })}
+            </React.Fragment>
+          ))}
         </div>
         <div className="col-12 p-4 d-flex justify-content-center align-items-center">
           <button onClick={() => navigate(-1)} className="p-2">{t('back')}</button>
@@ -100,43 +98,3 @@ export default function TeamPage({ teamData }) {
     </>
   );
 }
-
-/*
-<div className="col-12 p-4 d-flex flex-wrap justify-content-center align-items-center">
-        <h3 className="col-12 text-center">Players</h3>
-        {team.players.map((player, index) => {
-          let roleImage;
-
-          switch (index) {
-            case 0:
-              roleImage = process.env.PUBLIC_URL + "/images/lol_role_top.png";
-              break;
-            case 1:
-              roleImage = process.env.PUBLIC_URL + "/images/lol_role_jungle.png";
-              break;
-            case 2:
-              roleImage = process.env.PUBLIC_URL + "/images/lol_role_mid.png";
-              break;
-            case 3:
-              roleImage = process.env.PUBLIC_URL + "/images/lol_role_bot.png";
-              break;
-            case 4:
-              roleImage = process.env.PUBLIC_URL + "/images/lol_role_support.png";
-              break;
-            default:
-              roleImage = process.env.PUBLIC_URL + "/images/lol_role_fill.png";
-          }
-
-          return (
-            <div key={index} className="m-2 p-2 col-2 d-flex flex-column justify-content-center align-items-center" 
-            style={{ 
-              backgroundColor: "#2b2b2b",
-              borderRadius: "50px"
-            }}>
-              <h4 className="col-12 text-center">{player}</h4>
-              <img src={roleImage} alt={`Role ${index}`} style={{ width: "90px" }} />
-            </div>
-          );
-        })}
-      </div>
-*/

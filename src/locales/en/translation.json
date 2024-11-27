@@ -30,5 +30,8 @@
     "elimin-button": "Elimination Phase",
     "finished": "Finished",
     "cancelled": "Cancelled",
-    "winner": "Winner"
+    "winner": "Winner",
+    "players": "Players",
+    "principal": "Main Roster",
+    "subs": "Substitutes"
 }

@@ -30,5 +30,8 @@
     "elimin-button": "Fase de Eliminación",
     "finished": "Terminado",
     "cancelled": "Cancelado",
-    "winner": "Ganador"
+    "winner": "Ganador",
+    "players": "Jugadores",
+    "principal": "Roster Principal",
+    "subs": "Sustitutos"
 }

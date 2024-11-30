@@ -50,6 +50,10 @@
     background-color: black;
 }
 
+.schendule .bot-gap {
+    margin-bottom: 40px;
+}
+
 .schendule .result-div img {
     cursor: pointer;
     width: 50vw;

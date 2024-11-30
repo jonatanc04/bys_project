@@ -31,12 +31,13 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.1) 0%,
-        rgba(47,87,38,1) 50%,
-        rgba(0, 0, 0, 0.1) 100%
+        45deg,
+        rgba(47, 87, 38, 0.5) 25%,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(47, 87, 38, 0.5) 75%
     );
-    transform: translateX(-100%);
+    background-size: 200% 200%;
+    transform: translateX(0);
     animation: none;
     transition: opacity 0.3s ease;
     pointer-events: none;
@@ -44,16 +45,19 @@
 }
 
 .team-card:hover::before {
-    animation: move-lines 3s linear infinite;
+    animation: wave-pattern 3s ease infinite;
     opacity: 1;
 }
 
-@keyframes move-lines {
-    from {
-        transform: translateX(-100%);
+@keyframes wave-pattern {
+    0% {
+        background-position: 0% 50%;
     }
-    to {
-        transform: translateX(100%);
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
 

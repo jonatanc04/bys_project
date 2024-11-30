@@ -1,5 +1,6 @@
 nav {
     background-color: black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav h1 {
@@ -29,4 +30,24 @@ nav .change-lenguage {
 nav .change-lenguage:hover {
     transform: translateX(-3px) translateY(-3px);
     filter: drop-shadow(3px 3px 0px white);
+}
+
+.navbar .dropdown-menu {
+    background-color: rgb(59, 59, 59);
+    border: none;
+    padding: 0.5rem;
+}
+  
+.navbar .dropdown-item {
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+  
+.navbar .dropdown-item:hover {
+    background-color: #5d5d5d;
+}
+
+.navbar .dropdown-toggle::after {
+    display: none;
 }

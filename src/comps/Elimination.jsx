@@ -1,10 +1,9 @@
 import '../assets/styles/Elimination.css';
 import { useTranslation } from 'react-i18next';
-import elimination from '../data/elimination.json';
 import EliminationBlock from './EliminationBlock';
 import LegendCube from './LegendCube'
 
-export default function Elimination({ teams }) {
+export default function Elimination({ teams, elimination }) {
 
   const { t } = useTranslation();
 

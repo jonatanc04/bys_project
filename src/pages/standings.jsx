@@ -1,11 +1,10 @@
 import React, {useState} from "react";
-import teams from "../data/teams.json";
 import '../assets/styles/Standings.css';
 import { useTranslation } from 'react-i18next';
 import Groups from "../comps/Groups";
 import Elimination from "../comps/Elimination";
 
-export default function Standings() {
+export default function Standings({teams, elimination}) {
 
   const { t } = useTranslation();
   const [showGroups, setShowGroups] = useState(true);
@@ -23,7 +22,7 @@ export default function Standings() {
       {showGroups ? (
         <Groups teams={teams} />
       ) : (
-        <Elimination teams={teams} />
+        <Elimination teams={teams} elimination={elimination} />
       )}
     </div>
   );

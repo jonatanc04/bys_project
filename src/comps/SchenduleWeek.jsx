@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import GameRow from "./GameRow";
 
-export default function SchenduleWeek({ weekNumber, weekData }) {
+export default function SchenduleWeek({ weekNumber, weekData, teams }) {
   const { t } = useTranslation();
 
   const isNumber = (value) => !isNaN(parseInt(value));
@@ -21,7 +21,7 @@ export default function SchenduleWeek({ weekNumber, weekData }) {
           )}
           <div className={`group${groupNumber} col-12 d-flex flex-column`}>
             {Object.entries(gameData).map(([gameKey, gameInfo]) => (
-              <GameRow key={gameKey} gameInfo={gameInfo}></GameRow>
+              <GameRow key={gameKey} gameInfo={gameInfo} teams={teams}></GameRow>
             ))}
           </div>
         </div>

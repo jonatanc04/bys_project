@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import teams from "../data/teams.json";
 import GameImages from "./GameImages";
 
-export default function GameRow({ gameInfo }) {
+export default function GameRow({ gameInfo, teams }) {
   const [showRedDiv, setShowRedDiv] = useState(false);
   const url = process.env.PUBLIC_URL;
 

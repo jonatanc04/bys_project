@@ -33,8 +33,8 @@ export default function Navbar({ changeLanguage }) {
                 <t>{t("info")}</t>
               </Link>
               <ul className="dropdown-menu" aria-labelledby="infoDropdown">
-                <li><Link className="dropdown-item" to="/more">{t("rules")}</Link></li>
-                <li><Link className="dropdown-item" to="/registration">{t("registration")}</Link></li>
+                <li><Link className="dropdown-item" to="/rules">{t("rules")}</Link></li>
+                <li><Link className="dropdown-item" to="/inscriptions">{t("registration")}</Link></li>
                 <li><Link className="dropdown-item" to="/honours">{t("honours")}</Link></li>
                 <li><Link className="dropdown-item" to="/history">{t("history")}</Link></li>
                 <li><Link className="dropdown-item" to="/about">{t("about_us")}</Link></li>

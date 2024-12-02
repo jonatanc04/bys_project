@@ -16,8 +16,18 @@
 
 .elimination-block .elimination-row h3 {
     border-right: 3px solid white;
+    color: white;
+}
+
+.elimination-block .elimination-row h1 {
+    color: white;
 }
 
 .elimination-block .border-bot {
     border-bottom: 3px solid white;
+}
+
+.elimination-block .elimination-row:hover {
+    transition: all 0.2s ease-in;
+    background-color: rgb(72, 72, 72);
 }

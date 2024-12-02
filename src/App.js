@@ -5,11 +5,14 @@ import Navbar from './comps/Navbar';
 import Principal from './pages/principal';
 import Teams from './pages/teams';
 import Schendule from './pages/schendule';
-import More from './pages/more';
+import Rules from './pages/rules';
+import Honours from './pages/honours';
 import TeamPage from './pages/teamPage';
 import teamData from './data/teams.json';
 import './App.css';
 import Standings from './pages/standings';
+import Inscription from './pages/inscription';
+import Historic from './pages/history';
 
 function App() {
 
@@ -29,7 +32,10 @@ function App() {
           <Route path="/teams/:id" element={<TeamPage teamData={teamData} />} />
           <Route path='/schendule' element={<Schendule />} />
           <Route path='/standings' element={<Standings />} />
-          <Route path='/more' element={<More />} />
+          <Route path='/rules' element={<Rules />} />
+          <Route path='/inscriptions' element={<Inscription/> } />
+          <Route path='/honours' element={<Honours />} />
+          <Route path='/history' element={<Historic />} />
         </Routes>
       </Router>
     </div>

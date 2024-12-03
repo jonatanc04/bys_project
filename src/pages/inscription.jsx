@@ -7,7 +7,7 @@ export default function Inscription() {
 
   return (
     <div className="inscription fade-in container d-flex flex-column align-items-center justify-content-center">
-      <h3 className='p-3 m-3'>{t('inscriptions_no')}</h3>
+      <h3 className='p-3 m-3 col-12 text-center'>{t('inscriptions_no')}</h3>
     </div>
   )
 }

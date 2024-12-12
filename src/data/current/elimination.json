@@ -1,10 +1,10 @@
 {
     "semifinals": {
-        "game1": ["Game of Toddlers", "0", "0", "TuPrima", "15/12 - 19:00 CET",""],
-        "game2": ["SVG Team", "0", "0", "Blunt & Spicy", "8/12 - 21:00 CET",""]
+        "game1": ["Game of Toddlers", "0", "0", "TuPrima"],
+        "game2": ["SVG Team", "0", "2", "Blunt & Spicy"]
     },
     "finals": {
-        "final": ["Winner Game 1", "0", "0", "Winner Game 2", "15/12 - 21:00 CET",""],
-        "third": ["Loser Game 1", "0", "0", "Loser Game 2", "15/12 - 21:00 CET",""]
+        "final": ["Winner Game 1", "0", "0", "Blunt & Spicy"],
+        "third": ["Loser Game 1", "0", "0", "Loser Game 2"]
     }
 }

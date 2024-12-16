@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import teams from "../data/teams.json";
+import teams from '../data/current/teams.json'
 
 export default function EliminationTeam({ teamName, score, teamLogo, teamImage, addClasses }) {
   const team = teams[teamName];

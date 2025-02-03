@@ -1,8 +1,6 @@
-import { useTranslation } from 'react-i18next';
 import '../assets/styles/Inscriptions.css';
 
 export default function Inscription() {
-  const { t } = useTranslation();
   const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeUxft2_eVQFJJTSJQurSptYx39wdiVW_QvUzGGrSmV9hwurA/viewform";
 
   return (

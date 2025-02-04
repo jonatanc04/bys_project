@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.standing-page h3 {
+    background-color: transparent;
+}
+
 .standing-page button {
     border: none;
     margin-top: 18px;

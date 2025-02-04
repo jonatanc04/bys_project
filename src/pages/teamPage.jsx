@@ -37,7 +37,7 @@ export default function TeamPage({ teamData }) {
       <div className="teampage fade-in container d-flex flex-wrap justify-content-center align-items-center">
         <h1 className="col-12 p-3 m-3 text-center">{teamName}</h1>
         <div className="content col-6 d-flex justify-content-center align-items-center">
-          <img src={`${publicURL}${team.img}`} alt={`${teamName} Logo`} />
+          <img src={`../${team.img}`} alt={`${teamName} Logo`} />
         </div>
         <div className="content col-6 d-flex flex-column justify-content-center align-items-center">
           <div className="col-8 col-lg-6">

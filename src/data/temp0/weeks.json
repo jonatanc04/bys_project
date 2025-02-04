@@ -1,0 +1,57 @@
+{
+    "1": {
+        "1": {
+            "Game 1": ["Blunt & Spicy", "0-1", "Game of Toddlers", "10/11 - 20:00 CET",["../results/bysgot_week1_game1.png"]],
+            "Game 2": ["Penguin Esports", "1-0", "ByeQ", "19/11 - 21:00 CET",""]
+        },
+        "2": {
+            "Game 1": ["Walo MINI", "1-0", "Dorint", "15/11 - 22:30 CET",["../results/walodor_week1_game1.png"]],
+            "Game 2": ["SVG Team", "1-0", "TuPrima", "13/11 - 22:00 CET",["../results/svgtpm_week1_game1.png"]]
+        }
+    },
+    "2": {
+        "1": {
+            "Game 1": ["ByeQ", "0-1", "Game of Toddlers", "24/11 - 20:00 CET",""],
+            "Game 2": ["Penguin Esports", "0-1", "Blunt & Spicy", "21/11 - 21:30 CET",["../results/penbys_week2_game1.png"]]
+        },
+        "2": {
+            "Game 1": ["TuPrima", "0-1", "Dorint", "21/11 - 21:00 CET",""],
+            "Game 2": ["SVG Team", "1-0", "Walo MINI", "20/11 - 22:00 CET",["../results/svgwalo_week2_game1.png"]]
+        }
+    },
+    "3": {
+        "1": {
+            "Game 1": ["Game of Toddlers", "1-0", "Penguin Esports", "27/11 - 21:00 CET",["../results/gotpen_week3_game1.png"]],
+            "Game 2": ["ByeQ", "0-1", "Blunt & Spicy", "1/12 - 20:00 CET",""]
+        },
+        "2": {
+            "Game 1": ["Dorint", "0-1", "SVG Team", "26/11 - 20:30 CET",["../results/dorsvg_week3_game1.png"]],
+            "Game 2": ["TuPrima", "1-0", "Walo MINI", "27/11 - 22:00 CET",["../results/tpmwalo_week3_game1.png"]]
+        }
+    },
+    "undraw": {
+        "1": {
+            "Game 1": ["Walo MINI", "0-1", "Dorint", "29/11 - 22:00 CET",["../results/dorwalo_undraw_game1.png"]]
+        },
+        "2": {
+            "Game 1": ["Dorint", "0-1", "TuPrima", "3/12 - 21:00 CET",["../results/dortpm_undraw_game1.png"]]
+        }
+    },
+    "Semifinal": {
+        "1": {
+            "Game 1": ["Game of Toddlers", "1-2", "TuPrima", "15/12 - 19:00 CET",["../results/gottpm_semifinal_game1.png","../results/gottpm_semifinal_game2.png","../results/gottpm_semifinal_game3.png"]]
+        },
+        "2": {
+            "Game 1": ["SVG Team", "0-2", "Blunt & Spicy", "12/12 - 21:00 CET",["../results/svgbys_semifinal_game1.png", "../results/svgbys_semifinal_game2.png"]]
+        }
+    }
+    ,
+    "finaltier": {
+        "1": {
+            "Game 1": ["TuPrima", "0-2", "Blunt & Spicy", "19/01 - 21:00 CET",["../results/tpmbys_final_game1.png", "../results/tpmbys_final_game2.png"]]
+        },
+        "2": {
+            "Game 1": ["Game of Toddlers", "0-2", "SVG Team", "22/12 - 20:00 CET",""]
+        }
+    }
+}

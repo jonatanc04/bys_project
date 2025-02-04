@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import EliminationBlock from './EliminationBlock';
 import LegendCube from './LegendCube'
 
-export default function Elimination({ teams, elimination }) {
+export default function Elimination({ teams, elimination, path }) {
 
   const { t } = useTranslation();
 
@@ -31,8 +31,8 @@ export default function Elimination({ teams, elimination }) {
 
       <div className='col-6 d-flex flex-column'>
         <h3 className='text-center p-4'>Semifinal</h3>
-        <EliminationBlock blockInfo={semifinalGame1Info} teamImages={semifinalGame1Teams} final={false} />
-        <EliminationBlock blockInfo={semifinalGame2Info} teamImages={semifinalGame2Teams} final={false} />
+        <EliminationBlock blockInfo={semifinalGame1Info} teamImages={semifinalGame1Teams} final={false} path={path} teams={teams} />
+        <EliminationBlock blockInfo={semifinalGame2Info} teamImages={semifinalGame2Teams} final={false} path={path} teams={teams} />
         <div className='d-flex p-3 flex-row align-items-center justify-content-end'>
           <LegendCube color={"green"} text={t('qualify')} />
           <LegendCube color={"yellow"} text={t('winner')} />
@@ -41,9 +41,9 @@ export default function Elimination({ teams, elimination }) {
 
       <div className='col-6 d-flex flex-column'>
         <h3 className='text-center p-4'>Final</h3>
-        <EliminationBlock blockInfo={finalInfo} teamImages={finalTeams} final={true} />
+        <EliminationBlock blockInfo={finalInfo} teamImages={finalTeams} final={true} path={path} teams={teams} />
         <h3 className='text-center p-4'>3º & 4º</h3>
-        <EliminationBlock blockInfo={thirdPlaceInfo} teamImages={thirdPlaceTeams} final={false} />
+        <EliminationBlock blockInfo={thirdPlaceInfo} teamImages={thirdPlaceTeams} final={false} path={path} teams={teams} />
       </div>
     </div>
   );

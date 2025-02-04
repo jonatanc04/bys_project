@@ -1,3 +1,8 @@
 .inscription h3 {
     background-color: black;
 }
+
+.card-team-honour {
+    background-color: black;
+    border-bottom: 8px solid white;
+}

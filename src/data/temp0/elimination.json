@@ -1,0 +1,10 @@
+{
+    "semifinals": {
+        "game1": ["Game of Toddlers", "1", "2", "TuPrima"],
+        "game2": ["SVG Team", "0", "2", "Blunt & Spicy"]
+    },
+    "finals": {
+        "final": ["TuPrima", "0", "2", "Blunt & Spicy"],
+        "third": ["Game of Toddlers", "0", "2", "SVG Team"]
+    }
+}

@@ -1,6 +1,6 @@
 import EliminationTeam from './EliminationTeam';
 
-export default function EliminationBlock({ blockInfo, teamImages, final }) {
+export default function EliminationBlock({ blockInfo, teamImages, final, path, teams }) {
   const teamLogo = process.env.PUBLIC_URL;
 
   const getRowClass = (rowIndex) => {
@@ -12,8 +12,8 @@ export default function EliminationBlock({ blockInfo, teamImages, final }) {
 
   return (
     <div className='elimination-block m-3 d-flex flex-column align-items-center'>
-      <EliminationTeam teamName={blockInfo[0]} score={blockInfo[1]} teamLogo={teamLogo} teamImage={teamImages[0]} addClasses={[getRowClass(1), "border-bot"]} />
-      <EliminationTeam teamName={blockInfo[3]} score={blockInfo[2]} teamLogo={teamLogo} teamImage={teamImages[1]} addClasses={[getRowClass(2), ""]} />
+      <EliminationTeam teamName={blockInfo[0]} score={blockInfo[1]} teamLogo={teamLogo} teamImage={teamImages[0]} addClasses={[getRowClass(1), "border-bot"]} path={path} teams={teams} />
+      <EliminationTeam teamName={blockInfo[3]} score={blockInfo[2]} teamLogo={teamLogo} teamImage={teamImages[1]} addClasses={[getRowClass(2), ""]} path={path} teams={teams} />
     </div>
   );
 }

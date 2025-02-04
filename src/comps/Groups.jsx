@@ -2,7 +2,7 @@ import TeamRow from "../comps/TeamRow";
 import { useTranslation } from 'react-i18next';
 import LegendCube from "./LegendCube";
 
-export default function Groups({ teams }) {
+export default function Groups({ teams, path }) {
 
   const { t } = useTranslation();
 
@@ -35,7 +35,7 @@ export default function Groups({ teams }) {
             <h4 className="col-2 m-0 text-center">L</h4>
           </div>
           {group1.map(([teamName, teamData], index) => (
-            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} index={index} />
+            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} index={index} path={path} />
           ))}
         </div>
         <div className="group p-4 col-12 col-lg-6">
@@ -46,7 +46,7 @@ export default function Groups({ teams }) {
             <h4 className="col-2 m-0 text-center">L</h4>
           </div>
           {group2.map(([teamName, teamData], index) => (
-            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} index={index} />
+            <TeamRow key={teamData.id} teamData={teamData} teamName={teamName} index={index} path={path} />
           ))}
         </div>
       </div>

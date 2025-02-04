@@ -1,0 +1,21 @@
+.resume .button-resume {
+    color: white;
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.2s ease-in;
+}
+
+.resume .button-resume:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.activated {
+    background-color: rgb(72, 72, 72);
+}
+
+.unactivated {
+    background-color: black;
+}

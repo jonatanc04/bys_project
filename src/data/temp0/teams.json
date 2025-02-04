@@ -1,0 +1,102 @@
+{
+    "Blunt & Spicy": {
+        "id": 1,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/BluntSpicyLoL",
+            "arr": "@BluntSpicyLoL"
+        },
+        "manager": "sirinazurey",
+        "players": ["BYS GHÖSt", "Manite", "BYS EZ4RAGE", "BYS Sidern", "BYS KOTUFO", "Bandida Gal...", "conejita bum..."],
+        "img": "../teams/blunt.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=BYS+GHÖSt%23EMEA%2CManite%23JLL%2CBYS+EZ4RAGE%23EMEA%2CBYS+Sidern%231102%2CBYS+KOTUFO%239896%2CBandidaGalactica%23CEM%2Cconejita+bum+bum%23uwu",
+        "wins": 2,
+        "lose": 1
+    },
+    "Walo MINI": {
+        "id": 2,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/WaloESP",
+            "arr": "@WaloESP"
+        },
+        "manager": ".ivs.",
+        "players": ["WL Wwonka", "WL Calvito", "WL Imugi", "WL KıngNa", "WL Elbala"],
+        "img": "../teams/walo.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=WL%2BWwonka%232432,WL%2BElbala%235303,WL%2BKıngNa%231411,WL%2BCalvito%23FAP,WL%2BImugi%233122",
+        "wins": 1,
+        "lose": 3
+    },
+    "Game of Toddlers": {
+        "id": 3,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "nic4847",
+        "players": ["HellandTop", "NcLw0w", "Hanasöf", "Corki420", "Songed420"],
+        "img": "../teams/toddlers.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=HellandTop%23Sky%2CNcLw0w%239117%2CHanasöf%23euw%2CCorki420%23EUW%2CSonged420%23EUW",
+        "wins": 3,
+        "lose": 0
+    },
+    "Dorint": {
+        "id": 4,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "madcat73_11698",
+        "players": ["madcat73", "Quecker", "LoMars", "TurboTim030", "jonasmalecki", "MrSchuma"],
+        "img": "../teams/dorint.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW%2Cjonasmalecki%23EUW%2C",
+        "wins": 2,
+        "lose": 3
+    },
+    "Penguin Esports": {
+        "id": 5,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/PenguinEsportES",
+            "arr": "@PenguinEsportES"
+        },
+        "manager": "milesvor",
+        "players": ["XxLinkOtakuxX", "milesvor", "aLuxinante", "Belial", "ExiledNotBanned", "UnaBuena Ardilla"],
+        "img": "../teams/penguin.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=milesvor%230758%2CBelial%232121%2CaLuxinante%23OBK%2CExiledNotBanned%23EUW%2CXxLinkOtakuxX%23Zelda%2CUna+BuenaArdilla%23EUW%2C",
+        "wins": 1,
+        "lose": 2
+    },
+    "SVG Team": {
+        "id": 6,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/SavageIEVR",
+            "arr": "@SavageIEVR"
+        },
+        "manager": "cebohr",
+        "players": ["SaмaheL", "Cębø", "RevuGLMS", "Darcor", "Neskym8"],
+        "img": "../teams/svg.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Cębø%23ESP%2CSaмaheL%23Lúcif%2CRevuGLMS%23EUW%2CDarcor%23BOFF%2CNeskym8%23Arya",
+        "wins": 3,
+        "lose": 0
+    },
+    "ByeQ": {
+        "id": 7,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "asdrea",
+        "players": ["Lettuce Windows", "BalmyV", "Hera", "Asdrea", "Juanfran"],
+        "img": "../teams/byeq.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Lettuce+Windows%236969%2CBalmyV%23EUW%2CHera%23ELDEN%2CAsdrea%23ESP%2CJuanfran%23SSe%2CRayoEnyojer%23EUW",
+        "wins": 0,
+        "lose": 3
+    },
+    "TuPrima": {
+        "id": 8,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "myrdd",
+        "players": ["Janter12", "TPM Myrddraal", "TPM Cosacus", "bejahervas", "serpix", "Angár"],
+        "img": "../teams/tuprima.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Janter12-EUW%2CTPM+Cosacus%2Cbejahervas%2CAngár%2Cserpix%23serpi%2CJanter12%23EUW%2CTPM+Myrddraal",
+        "wins": 2,
+        "lose": 2
+    }
+}

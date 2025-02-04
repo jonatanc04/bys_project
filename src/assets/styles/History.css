@@ -1,0 +1,16 @@
+.history {
+    margin-top: 15px;
+}
+
+.history a {
+    background-color: black;
+    color: white;
+    width: 800px;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 0.2s ease-in;
+}
+
+.history a:hover {
+    background-color: rgb(59, 59, 59);
+}

@@ -1,0 +1,29 @@
+{
+    "Blunt & Spicy": {
+        "id": 1,
+        "twitter": {
+            "url": "https://x.com/BluntSpicyLoL",
+            "arr": "@BluntSpicyLoL"
+        },
+        "players": ["BYS GHÖSt", "Manite", "BYS EZ4RAGE", "BYS Sidern", "BYS KOTUFO", "Bandida Gal...", "conejita bum..."],
+        "img": "../teams/blunt.png",
+        "honours": ["x1 Blunted Cup Winner (Season 0)"]
+    },
+    "TuPrima": {
+        "id": 2,
+        "twitter": "https://x.com",
+        "players": ["Janter12", "TPM Myrddraal", "TPM Cosacus", "bejahervas", "serpix", "Angár"],
+        "img": "../teams/tuprima.png",
+        "honours": ["x1 Blunted Cup Runner-up (Season 0)"]
+    },
+    "SVG Team": {
+        "id": 3,
+        "twitter": {
+            "url": "https://x.com/SavageIEVR",
+            "arr": "@SavageIEVR"
+        },
+        "players": ["SaмaheL", "Cębø", "RevuGLMS", "Darcor", "Neskym8"],
+        "img": "../teams/svg.png",
+        "honours": ["x1 Blunted Cup 3rd Place (Season 0)"]
+    }
+}

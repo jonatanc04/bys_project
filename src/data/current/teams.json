@@ -26,5 +26,19 @@
         "opgg": "https://www.op.gg/multisearch/euw?summoners=BandidaGalactica%23CEM%2CServi%C3%B1eta%23%C3%91aCl%2CRiojano%231914%2CWarraGalactica%23EUW5%2CBalmyV%23EUW",
         "wins": 0,
         "lose": 0
+    },
+    "SVG Team": {
+        "id": 3,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/SavageIEVR",
+            "arr": "@SavageIEVR"
+        },
+        "manager": "cebohr",
+        "players": ["SaмaheL", "Cębø", "RevuGLMS", "Darcor", "Neskym8"],
+        "img": "../teams/svg.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=C%C4%99b%C3%B8%23ESP%2CSa%D0%BCaheL%23L%C3%BAcif%2CRevuGLMS%23EUW%2CDarcor%23BOFF%2CNeskym8%23Arya",
+        "wins": 0,
+        "lose": 0
     }
 }

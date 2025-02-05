@@ -40,5 +40,19 @@
         "opgg": "https://www.op.gg/multisearch/euw?summoners=C%C4%99b%C3%B8%23ESP%2CSa%D0%BCaheL%23L%C3%BAcif%2CRevuGLMS%23EUW%2CDarcor%23BOFF%2CNeskym8%23Arya",
         "wins": 0,
         "lose": 0
+    },
+    "Lavanda": {
+        "id": 4,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/lavandagz",
+            "arr": "@lavandagz"
+        },
+        "manager": "pamsssss_",
+        "players": ["purri96", "Zacude Melrabo", "faker tetona", "pamsssss_", "BigoteMaster", "tostaditadejamón"],
+        "img": "../teams/lavanda.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=purri96%23pixo%2CZacude+Melrabo%23kekw%2Cpamspicy%23lvn%2Cfaker+tetona%23koi%2CBigote+Master%23MDPO%2Ctostaditadejam%C3%B3n%2317674",
+        "wins": 0,
+        "lose": 0
     }
 }

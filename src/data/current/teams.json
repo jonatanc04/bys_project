@@ -102,7 +102,29 @@
         "players": ["daddyalex", "Sabuuu", "aLuxinante", "milesvor", "ExiledNotBanned", "Maiikel"],
         "img": "../teams/penguin.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=milesvor%230758%2CSabuu%23EUW2%2CMaiikel%234428%2CAluxinante%23OBK%2CExiledNotBanned%23EUW%2Cdaddyalex%230777",
-        "wins": 1,
-        "lose": 2
+        "wins": 0,
+        "lose": 0
+    },
+    "Dorint": {
+        "id": 9,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "madcat73_11698",
+        "players": ["madcat73", "Quecker", "LoMars", "TurboTim030", "jonasmalecki", "MrSchuma"],
+        "img": "../teams/dorint.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=madcat73%234084%2CLoMars%23EUW%2CTurboTim030%237430%2CQuecker%23DOR%2CUmnOaRMoWFjHqOEs%23EUW%2CMrSchuma%23EUW%2Cjonasmalecki%23EUW%2C",
+        "wins": 0,
+        "lose": 0
+    },
+    "Estamos Todos Aqui": {
+        "id": 10,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "Campeh",
+        "players": ["KekoPevepes", "Campeh", "PolarFrostG14NT", "daku", "Ares", "emoliraptor", "Pl4y3r", "xhetos pandilla"],
+        "img": "../teams/eta.jfif",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Campeh%235001%2CKekoPevepes%23EUW%2CPolarFrostG14NT%23NKL34%2Cxhetos+pandilla%23EUW%2CAres%23OPA%2Cemoliraptor%23EUW%2Cdaku%23lul%2CPl4y3r%238460%2C%2C",
+        "wins": 0,
+        "lose": 0
     }
 }

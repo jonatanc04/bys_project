@@ -68,5 +68,27 @@
         "opgg": "https://www.op.gg/multisearch/euw?summoners=WL%2BWwonka%232432%2CWL%2BElbala%235303%2CWL%2BCalvito%23FAP%2CWL%2BCubis%231411%2CWL+IvsSlaveS3xO%231411%2CWL+Kaito%236969%2CWL+SERKI11%234222",
         "wins": 0,
         "lose": 0
+    },
+    "A TRIBU": {
+        "id": 6,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "yagooregueiraa_",
+        "players": ["MrSantos2", "alfa 〆", "Nenix9", "Fabo", "iagoinsua", "yaaguito", "Zaresss"],
+        "img": "../teams/tribu.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=alfa+〆%23ELITE%2CNenix9%233385%2CMrSantos2%23EUW%2Ciagoinsua%23EUW%2CFabo%239598%2Cyaaguito%237486%2CZaresss%23EUW",
+        "wins": 0,
+        "lose": 0
+    },
+    "Team Defrente": {
+        "id": 7,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "isma96",
+        "players": ["toretoo", "Marcalaperri", "Isma96", "7R1CkY7", "Paucras", "Ronet D Vortxal"],
+        "img": "../teams/defrente.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Isma96%23EUW%2CMarcalaperri%235599%2CPaucras%23EUW%2C7R1CkY7%23EUW%2Ctoretoo%23gsh%2CRonet+D+Vortxal%236476",
+        "wins": 0,
+        "lose": 0
     }
 }

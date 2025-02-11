@@ -90,5 +90,19 @@
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Isma96%23EUW%2CMarcalaperri%235599%2CPaucras%23EUW%2C7R1CkY7%23EUW%2Ctoretoo%23gsh%2CRonet+D+Vortxal%236476",
         "wins": 0,
         "lose": 0
+    },
+    "Penguin Esports": {
+        "id": 8,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/PenguinEsportES",
+            "arr": "@PenguinEsportES"
+        },
+        "manager": "milesvor",
+        "players": ["daddyalex", "Sabuuu", "aLuxinante", "milesvor", "ExiledNotBanned", "Maiikel"],
+        "img": "../teams/penguin.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=milesvor%230758%2CSabuu%23EUW2%2CMaiikel%234428%2CAluxinante%23OBK%2CExiledNotBanned%23EUW%2Cdaddyalex%230777",
+        "wins": 1,
+        "lose": 2
     }
 }

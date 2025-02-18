@@ -85,9 +85,9 @@
         "active": true,
         "twitter": "https://x.com",
         "manager": "isma96",
-        "players": ["toretoo", "Marcalaperri", "Isma96", "7R1CkY7", "Paucras", "Ronet D Vortxal"],
+        "players": ["toretoo", "Marcalaperri", "Ronet D Vortxal", "7R1CkY7", "Isma96"],
         "img": "../teams/defrente.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=Isma96%23EUW%2CMarcalaperri%235599%2CPaucras%23EUW%2C7R1CkY7%23EUW%2Ctoretoo%23gsh%2CRonet+D+Vortxal%236476",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Isma96%23EUW%2CMarcalaperri%235599%2C7R1CkY7%23EUW%2Ctoretoo%23gsh%2CRonet+D+Vortxal%236476",
         "wins": 0,
         "lose": 0
     },

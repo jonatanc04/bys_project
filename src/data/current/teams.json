@@ -85,7 +85,7 @@
         "active": true,
         "twitter": "https://x.com",
         "manager": "isma96",
-        "players": ["toretoo", "Marcalaperri", "Ronet D Vortxal", "7R1CkY7", "Isma96"],
+        "players": ["toretoo", "Marcalaperri", "Ronet D Vortxal", "Isma96", "7R1CkY7"],
         "img": "../teams/defrente.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Isma96%23EUW%2CMarcalaperri%235599%2C7R1CkY7%23EUW%2Ctoretoo%23gsh%2CRonet+D+Vortxal%236476",
         "wins": 0,
@@ -124,6 +124,20 @@
         "players": ["KekoPevepes", "Campeh", "PolarFrostG14NT", "daku", "Ares", "emoliraptor", "Pl4y3r", "xhetos pandilla"],
         "img": "../teams/eta.jfif",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Campeh%235001%2CKekoPevepes%23EUW%2CPolarFrostG14NT%23NKL34%2Cxhetos+pandilla%23EUW%2CAres%23OPA%2Cemoliraptor%23EUW%2Cdaku%23lul%2CPl4y3r%238460%2C%2C",
+        "wins": 0,
+        "lose": 0
+    },
+    "Hellion Runeterra": {
+        "id": 11,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/H_Runeterra",
+            "arr": "@H_Runeterra"
+        },
+        "manager": "atrexz.",
+        "players": ["Vrisharuniy", "Cookie", "HRT R1GX", "A P O L O", "HasHands", "Patsanis1996"],
+        "img": "../teams/hrt.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=HRT+Patsanis1996%230000%2CCookie%23ddx%2CHRT+R1GX%230000%2CA+P+O+L+O%23AZOR%2CHasHands%23EUW2%2CVrisharuniy%23EUW%2C",
         "wins": 0,
         "lose": 0
     }

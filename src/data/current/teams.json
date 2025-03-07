@@ -49,9 +49,9 @@
             "arr": "@lavandagz"
         },
         "manager": "pamsssss_",
-        "players": ["purri96", "Zacude Melrabo", "faker tetona", "pamsssss_", "BigoteMaster", "tostaditadejamón"],
+        "players": ["purri96", "Zacude Melrabo", "faker tetona", "pamsssss_", "BigoteMaster", "tostaditadejamón", "JiJiclone"],
         "img": "../teams/lavanda.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=purri96%23pixo%2CZacude+Melrabo%23kekw%2Cpamspicy%23lvn%2Cfaker+tetona%23koi%2CBigote+Master%23MDPO%2Ctostaditadejam%C3%B3n%2317674",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=purri96%23pixo%2CZacude+Melrabo%23kekw%2Cpamspicy%23lvn%2Cfaker+tetona%23koi%2CBigote+Master%23MDPO%2Ctostaditadejamón%2317674%2CJiJiclone%23101",
         "wins": 0,
         "lose": 0
     },
@@ -138,6 +138,17 @@
         "players": ["Vrisharuniy", "Cookie", "HRT R1GX", "A P O L O", "HasHands", "Patsanis1996"],
         "img": "../teams/hrt.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=HRT+Patsanis1996%230000%2CCookie%23ddx%2CHRT+R1GX%230000%2CA+P+O+L+O%23AZOR%2CHasHands%23EUW2%2CVrisharuniy%23EUW%2C",
+        "wins": 0,
+        "lose": 0
+    },
+    "Falling Down": {
+        "id": 12,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "Croko",
+        "players": ["CrokoReformed", "Atreus", "Landeton", "URSS Каролин", "kzk"],
+        "img": "../teams/fallingd.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Atreus%231229%2CLandeton%23IKE%2CCrokoReformed%23EUW%2Ckzk%23HAHA%2CURSS+%D0%9A%D0%B0%D1%80%D0%BE%D0%BB%D0%B8%D0%BD%23URSS",
         "wins": 0,
         "lose": 0
     }

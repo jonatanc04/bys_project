@@ -27,20 +27,6 @@
         "wins": 0,
         "lose": 0
     },
-    "SVG Team": {
-        "id": 3,
-        "active": true,
-        "twitter": {
-            "url": "https://x.com/SavageIEVR",
-            "arr": "@SavageIEVR"
-        },
-        "manager": "cebohr",
-        "players": ["SaмaheL", "Cębø", "RevuGLMS", "Darcor", "Neskym8"],
-        "img": "../teams/svg.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=C%C4%99b%C3%B8%23ESP%2CSa%D0%BCaheL%23L%C3%BAcif%2CRevuGLMS%23EUW%2CDarcor%23BOFF%2CNeskym8%23Arya",
-        "wins": 0,
-        "lose": 0
-    },
     "Lavanda": {
         "id": 4,
         "active": true,
@@ -99,9 +85,9 @@
             "arr": "@PenguinEsportES"
         },
         "manager": "milesvor",
-        "players": ["daddyalex", "Sabuuu", "aLuxinante", "milesvor", "ExiledNotBanned", "Maiikel"],
+        "players": ["UnaBuenaArdilla", "Sabuuu", "RevuGLMS", "Zine", "ExiledNotBanned", "Dine"],
         "img": "../teams/penguin.png",
-        "opgg": "https://www.op.gg/multisearch/euw?summoners=milesvor%230758%2CSabuu%23EUW2%2CMaiikel%234428%2CAluxinante%23OBK%2CExiledNotBanned%23EUW%2Cdaddyalex%230777",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=Zine%23OBK%2CDine%230758%2CRevuGLMS%23EUW%2CUnaBuenaArdilla%23EUW%2CSabuu%23EUW2%2CExiledNotBanned%23EUW",
         "wins": 0,
         "lose": 0
     },

@@ -127,7 +127,7 @@
         "wins": 0,
         "lose": 0
     },
-    "Falling Down": {
+    "Dynamo Thunder Lions": {
         "id": 12,
         "active": true,
         "twitter": "https://x.com",
@@ -135,6 +135,31 @@
         "players": ["CrokoReformed", "Atreus", "Landeton", "URSS Каролин", "kzk"],
         "img": "../teams/fallingd.png",
         "opgg": "https://www.op.gg/multisearch/euw?summoners=Atreus%231229%2CLandeton%23IKE%2CCrokoReformed%23EUW%2Ckzk%23HAHA%2CURSS+%D0%9A%D0%B0%D1%80%D0%BE%D0%BB%D0%B8%D0%BD%23URSS",
+        "wins": 0,
+        "lose": 0
+    },
+    "Artic Hollow": {
+        "id": 13,
+        "active": true,
+        "twitter": {
+            "url": "https://x.com/ArticHollow_lol",
+            "arr": "@ArticHollow_lol"
+        },
+        "manager": "aitorrodri11",
+        "players": ["ElGato", "ElOnerDeBronce", "Arasys", "kalammarr", "SrPato"],
+        "img": "../teams/default.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=ElOnerDeBronce%23ATH%2CSrPato%23SDG%2CElGato%23yuumi%2Ckalammarr%23EUW%2CArasys%23EUW",
+        "wins": 0,
+        "lose": 0
+    },
+    "Team Olympus": {
+        "id": 14,
+        "active": true,
+        "twitter": "https://x.com",
+        "manager": "Arkkenz",
+        "players": ["TO Alphonse", "TO Arkkenz", "TO Ashkore", "TO Legolas", "TO Sr Luigi", "Luserum", "TO Kapee"],
+        "img": "../teams/default.png",
+        "opgg": "https://www.op.gg/multisearch/euw?summoners=TO+Alphonse%23TCO%2CTO+Arkkenz%23TOP%2CTO+Ashkore%23FKR%2CTO+Legolas%23ADC%2CTO+Sr+Luigi%23777%2CLuserum%23EUW%2CTO+Kapee%23COA%2C",
         "wins": 0,
         "lose": 0
     }
